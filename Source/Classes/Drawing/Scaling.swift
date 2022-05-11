@@ -6,6 +6,7 @@
 //  Copyright © 2019 Instacart. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 extension NantesLabel {
@@ -34,3 +35,4 @@ extension NantesLabel {
         return nil
     }
 }
+#endif

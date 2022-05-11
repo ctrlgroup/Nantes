@@ -6,6 +6,7 @@
 //  Copyright © 2018 Instacart. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 @IBDesignable open class NantesLabel: UILabel {
@@ -312,3 +313,4 @@ import UIKit
         attributedText = mutableAttributedString
     }
 }
+#endif

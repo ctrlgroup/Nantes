@@ -6,6 +6,7 @@
 //  Copyright © 2019 Instacart. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 public protocol NantesLabelDelegate: AnyObject {
@@ -25,3 +26,4 @@ public extension NantesLabelDelegate {
     func attributedLabel(_ label: NantesLabel, didSelectTextCheckingResult result: NSTextCheckingResult) { }
     func attributedLabel(_ label: NantesLabel, didSelectTransitInfo transitInfo: [NSTextCheckingKey: String]) { }
 }
+#endif

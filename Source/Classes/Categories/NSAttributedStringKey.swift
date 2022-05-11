@@ -6,6 +6,7 @@
 //  Copyright © 2019 Instacart. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 public extension NSAttributedString.Key {
@@ -16,3 +17,4 @@ public extension NSAttributedString.Key {
     static let nantesLabelBackgroundStrokeColor: NSAttributedString.Key = .init("NantesLabelBackgroundStrokeColorAttribute")
     static let nantesLabelStrikeOut: NSAttributedString.Key = .init("NantesLabelStrikeOutAttribute")
 }
+#endif
